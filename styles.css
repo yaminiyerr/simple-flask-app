@@ -1,0 +1,24 @@
+/* Global overrides */
+body {
+  scroll-behavior: smooth;
+  padding-top: 70px; /* offset for fixed navbar */
+}
+h2 {
+  font-weight: 700;
+}
+/* Hero */
+#hero {
+  background: url('https://via.placeholder.com/1600x900') center/cover no-repeat;
+}
+.nav-link {
+  font-weight: 500;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;<svg xmlns='http://www.w3.org/2000/svg' ...>"); /* custom icon */
+}
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
